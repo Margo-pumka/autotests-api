@@ -4,6 +4,9 @@ from clients.api_client import APIClient
 
 
 class UserRequestDict(TypedDict):
+    """
+    Описание структуры запроса на создание пользователя.
+    """
     email: str
     password: str
     lastName: str
