@@ -22,7 +22,6 @@ authentication_user = AuthenticationUserDict(
 )
 
 files_client = get_files_client(authentication_user)
-courses_client = get_courses_client(authentication_user)
 create_file_request = CreateFileRequestDict(
     filename="image.png",
     directory="courses",
@@ -31,7 +30,7 @@ create_file_request = CreateFileRequestDict(
 create_file_response = files_client.create_file(create_file_request)
 print('Create file data:', create_file_response)
 
-
+courses_client = get_courses_client(authentication_user)
 create_course_request = CreateCourseRequestDict(
     title="Python",
     maxScore=100,
