@@ -7,7 +7,7 @@ from tools.fakers import get_random_email
 
 class UserSchema(BaseModel):
     """
-    Описание структуры пользователя.
+    Схема структуры пользователя.
     """
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
@@ -20,7 +20,7 @@ class UserSchema(BaseModel):
 
 class CreateUserRequestSchema(BaseModel):
     """
-    Описание структуры запроса на создание пользователя.
+    Схема структуры запроса на создание пользователя.
     """
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
@@ -33,13 +33,6 @@ class CreateUserRequestSchema(BaseModel):
 
 class CreateUserResponseSchema(BaseModel):
     """
-    Описание структуры ответа создания пользователя.
+    Схема структуры ответа создания пользователя.
     """
     user: UserSchema
-
-
-public_users_client = get_public_users_client()
-request = CreateUserRequestSchema().model_dump()
-create_user_response = public_users_client.create_user(request)
-print("Create user data:", create_user_response)
-
