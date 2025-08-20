@@ -5,7 +5,7 @@ from httpx import Response
 from clients.api_client import APIClient
 from clients.files.files_client import File
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
-from clients.users.private_users_client import User
+from clients.users.users_schema import UserSchema
 
 
 class Course(TypedDict):
@@ -19,7 +19,7 @@ class Course(TypedDict):
     description: str
     previewFile: File
     estimatedTime: str
-    createdByUser: User
+    createdByUser: UserSchema
 
 
 class GetCoursesQueryDict(TypedDict):
