@@ -1,6 +1,7 @@
 from clients.courses.courses_client import get_courses_client
 from clients.courses.courses_schema import CreateCourseRequestSchema
-from clients.exercises.exercises_client import get_exercises_client, CreateExerciseRequestDict
+from clients.exercises.exercises_client import get_exercises_client
+from clients.exercises.exercises_schema import CreateExerciseRequestSchema
 from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
@@ -47,14 +48,14 @@ create_course_response = courses_client.create_course(create_course_request)
 print('Create course data:', create_course_response)
 
 exercises_client = get_exercises_client(authentication_user)
-create_exercise_request = CreateExerciseRequestDict(
+create_exercise_request = CreateExerciseRequestSchema(
     title="Python API",
-    courseId=create_course_response.course.id,
-    maxScore=10,
-    minScore=8,
-    orderIndex=0,
+    course_id=create_course_response.course.id,
+    max_score=10,
+    min_score=8,
+    order_index=0,
     description="Patterns",
-    estimatedTime="2 days"
+    estimated_time="2 days"
 )
 create_exercise_response = exercises_client.create_exercise(create_exercise_request)
 print('Create exercise data:', create_exercise_response)
