@@ -1,8 +1,7 @@
 from pydantic import BaseModel, EmailStr, Field, UUID4, ConfigDict
 from pydantic.alias_generators import to_camel
 
-from clients.users.public_users_client import get_public_users_client
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 
 class UserSchema(BaseModel):
@@ -24,7 +23,7 @@ class CreateUserRequestSchema(BaseModel):
     """
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
-    email: EmailStr = Field(min_length=1, max_length=250, default_factory=lambda: get_random_email())
+    email: EmailStr = Field(min_length=1, max_length=250, default_factory=lambda: fake.email())
     password: str = Field(min_length=1, max_length=250, default="string")
     lastName: str = Field(min_length=1, max_length=50, default="string")
     firstName: str = Field(min_length=1, max_length=50, default="string")
