@@ -34,6 +34,7 @@ def assert_validation_error_response(
     for index, detail in enumerate(expected.details):
         assert_validation_error(actual.details[index], detail)
 
+
 def assert_internal_error_response(
         actual: InternalErrorResponseSchema,
         expected: InternalErrorResponseSchema
