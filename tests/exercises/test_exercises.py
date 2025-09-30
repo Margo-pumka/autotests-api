@@ -52,9 +52,9 @@ class TestExercises:
         assert_status_code(delete_response.status_code, HTTPStatus.OK)
 
         get_response = exercises_client.get_exercise_api(function_exercise.response.exercise.id)
-        response_get_exercise_data = InternalErrorResponseSchema.model_validate_json(get_response.text)
+        get_response_data = InternalErrorResponseSchema.model_validate_json(get_response.text)
 
         assert_status_code(get_response.status_code, HTTPStatus.NOT_FOUND)
-        assert_exercise_not_found_response(response_get_exercise_data)
+        assert_exercise_not_found_response(get_response_data)
 
-        validate_json_schema(get_response.json(), response_get_exercise_data.model_json_schema())
+        validate_json_schema(get_response.json(), get_response_data.model_json_schema())
