@@ -2,6 +2,8 @@ import uuid
 
 from pydantic import BaseModel, Field, HttpUrl, EmailStr, ValidationError
 
+from config import settings
+
 
 class FileSchema(BaseModel):
     id: str
@@ -37,7 +39,7 @@ course_default_model = CourseSchema(
     description="Playwright",
     previewFile=FileSchema(
         id="file-id",
-        url="http://localhost:8000",
+        url=settings.http_client.url,
         filename="file.png",
         directory="courses",
     ),
@@ -60,7 +62,7 @@ course_dict = {
     "description": "Playwright",
     "previewFile": {
         "id": "file-id",
-        "url": "http://localhost:8000",
+        "url": settings.http_client.url,
         "filename": "file.png",
         "directory": "courses"
     },
@@ -85,7 +87,7 @@ course_json = """
     "description": "Playwright",
     "previewFile": {
         "id": "file-id",
-        "url": "http://localhost:8000",
+        "url": "https://localhost:8000",
         "filename": "file.png",
         "directory": "courses"
     },

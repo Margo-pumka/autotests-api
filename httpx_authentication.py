@@ -1,11 +1,13 @@
 import httpx
 
+from config import settings
+
 login_payload = {
     "email": "ii@ii.ii",
     "password": "ivanov"
 }
 
-login_response = httpx.post("http://localhost:8000/api/v1/authentication/login", json=login_payload)
+login_response = httpx.post(f"{settings.http_client.url}api/v1/authentication/login", json=login_payload)
 login_response_data = login_response.json()
 
 print("Login response:", login_response_data)
@@ -15,7 +17,7 @@ refresh_payload = {
     "refreshToken": login_response_data["token"]["refreshToken"]
 }
 
-refresh_response = httpx.post("http://localhost:8000/api/v1/authentication/refresh", json=refresh_payload)
+refresh_response = httpx.post(f"{settings.http_client.url}api/v1/authentication/refresh", json=refresh_payload)
 refresh_response_data = refresh_response.json()
 
 print("Refresh response:", refresh_response_data)

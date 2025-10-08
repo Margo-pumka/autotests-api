@@ -1,4 +1,6 @@
 import httpx
+
+from config import settings
 from tools.fakers import fake
 
 payload = {
@@ -8,7 +10,7 @@ payload = {
     "firstName": "string",
     "middleName": "string"
 }
-response = httpx.post("http://localhost:8000/api/v1/users", json=payload)
+response = httpx.post(f"{settings.http_client.url}api/v1/users", json=payload)
 
 print(response.status_code)
 print(response.json())
