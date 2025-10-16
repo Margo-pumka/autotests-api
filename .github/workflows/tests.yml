@@ -47,12 +47,12 @@ jobs:
           pytest -m regression --alluredir=allure-results --numprocesses 2
 
       - name: Restore Coverage history
-          uses: actions/cache/restore@v4
-          with:
-            path: coverage-history.json
-            key: coverage-history-${{ github.run_id }}
-            restore-keys: |
-              coverage-history-
+        uses: actions/cache/restore@v4
+        with:
+          path: coverage-history.json
+          key: coverage-history-${{ github.run_id }}
+          restore-keys: |
+            coverage-history-
 
       - name: Generate Coverage report
         run: |
