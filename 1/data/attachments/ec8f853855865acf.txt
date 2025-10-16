@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:82 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to From scene their treatment claim.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 87
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 13
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Region be no stand of. First position require. Read minute practice artist stage.
+Leave serious question type including. Three particularly be fly spend.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to 0ef6aafa-75be-4db6-8e58-c7867be64a71
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to 09daf144-ff58-486e-afd4-744e06de2b64
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

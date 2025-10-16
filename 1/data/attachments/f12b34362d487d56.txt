@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/2a7c7867-7bc7-45c7-ab6f-af0938428748
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises/2a7c7867-7bc7-45c7-ab6f-af0938428748
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:68 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 2a7c7867-7bc7-45c7-ab6f-af0938428748
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Evening detail century early protect better leave.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 1eea8c6e-8ba3-43a8-a5ac-fb448eb4ec8f
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 66
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 90
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Total rise speak someone skill attack police. Officer young expert find.
+Week market indicate on go condition. Arm east soldier plan.
+Few or environment plant. Fear second majority than professional.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

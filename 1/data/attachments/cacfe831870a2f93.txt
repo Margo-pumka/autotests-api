@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIwOjUzOjAxLjcwOTg3MSIsInVzZXJfaWQiOiJjNDY3MTRmOC1jNjFkLTRiMzktOTY4MS0wZDE5NTU5YThjYzIifQ.mI4v3pSvFTsn-lii4Ph7SMsSMObiAzfSnrvg8wm--Ik' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Body clear likely better already Congress.","maxScore":63,"minScore":3,"description":"Like white onto sometimes. Matter man matter miss state itself century bad. Message relationship front growth president.\nInstead size happy late sort. Dark same political end.","estimatedTime":"4 weeks","previewFileId":"186e6eb2-1f63-4b3d-a907-2da910e66e84","createdByUserId":"c46714f8-c61d-4b39-9681-0d19559a8cc2"}'

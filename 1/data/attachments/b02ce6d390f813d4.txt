@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIwOjUzOjAyLjkzMjkyMCIsInVzZXJfaWQiOiIzM2UzMTkxZi04Y2FlLTRhZmYtYTBhMy1hZmRmYjMwMGU4YjgifQ.Fk63_2wcTVviF0fqjhXFXUchBVAaU3VP-8UHP_KhWy4' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Market owner such dog give sing.","maxScore":56,"minScore":6,"description":"She standard throw claim relationship.\nThank most knowledge possible too top recognize his. Enjoy gas upon hotel.","estimatedTime":"3 weeks","previewFileId":"fbadc472-be35-483e-99e3-70cab12b18b9","createdByUserId":"33e3191f-8cae-4aff-a0a3-afdfb300e8b8"}'

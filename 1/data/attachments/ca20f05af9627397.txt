@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIwOjUzOjAzLjUxMTQ5NSIsInVzZXJfaWQiOiIwZWU4OWI3YS0yNDRjLTQ2ZTItOGVlYi0zM2M0Mjc2NDJkMjgifQ.wV9v9QKPqcLHi2EVHGHn6SSD_Vjp3qKVjy8mK0JpyHo' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"East finish hold discussion worker concern.","courseId":"308d6fc8-53d6-4573-b73a-2cab79f34b42","maxScore":78,"minScore":25,"orderIndex":74,"description":"Partner total rest the. Best never practice painting suffer particular under.\nParticularly situation reveal. After late son receive clearly.","estimatedTime":"10 weeks"}'

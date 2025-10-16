@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIwOjUzOjAyLjMwNDc1OCIsInVzZXJfaWQiOiJlZDkxNDY1MS03ZTYxLTRiNzItOTNkZi03NzEwZWRiNDgyNGYifQ.oZlGiEBSIyG5mws29w-_ChttMtjN-A4GUDKYp3TWqMo' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Adult wish south election.","maxScore":94,"minScore":25,"description":"Traditional look practice. Old majority stock who.\nImprove make rich despite partner price and. Civil part specific pattern summer. Room factor pick.","estimatedTime":"5 weeks","previewFileId":"3cf1130d-3dfb-4a01-8939-a63f6e84f4b7","createdByUserId":"ed914651-7e61-4b72-93df-7710edb4824f"}'

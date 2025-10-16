@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIwOjUyOjU5LjkwMDg2MyIsInVzZXJfaWQiOiIxMjJjYzYwMS01MTJmLTQzYWItOGQ5YS05ZjMwYzE0MTQwYjMifQ.Cqwi7mNqxjMuZtzMWwyTaZ4I7GUyTgru4IAEd4HLdXA' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Guy forward rock.","maxScore":80,"minScore":6,"description":"Side later campaign south before success. Respond father couple development.\nPart white pretty can. Hundred also range heavy general. Able suddenly various get western.","estimatedTime":"5 weeks","previewFileId":"93fcb2bf-fe30-4a25-b196-b286bcdd883e","createdByUserId":"122cc601-512f-43ab-8d9a-9f30c14140b3"}'

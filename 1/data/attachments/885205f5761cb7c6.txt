@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIwOjUyOjU5LjMxMjAwNiIsInVzZXJfaWQiOiJkNTM4YTE0ZC1hODZhLTQ2ZWYtYWQ2Mi1mYmViYjgzOTBhN2EifQ.K_gQ3ZShKzGkFyqeMHOgdbrAlI2O3ALeFrh2UwbOeRc' \
+  -H 'content-length: 279' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Real effort provide.","maxScore":79,"minScore":28,"description":"Sign situation hear better fear Mr quality. Push money help lay.","estimatedTime":"6 weeks","previewFileId":"36c02be1-35eb-4ebb-b3b1-a0463e8eb402","createdByUserId":"d538a14d-a86a-46ef-ad62-fbebb8390a7a"}'

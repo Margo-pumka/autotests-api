@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIwOjUzOjAxLjEyMzI3OSIsInVzZXJfaWQiOiJmMjU5MjQ0Zi1lZDEwLTQ0ZjQtYjk1Yy02ZjY3NmMyMmQ3ZWYifQ.eiZaD0EpgY2DgRE7oSx-oapSOihWeXjIskDwm3WUiHY' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Smile base fear.","maxScore":59,"minScore":15,"description":"Financial fast magazine perhaps me effort follow condition. Foot present weight reach. Purpose arm blood than list some.","estimatedTime":"8 weeks","previewFileId":"10a3d27d-1720-46e2-ac91-bd1bc051b85d","createdByUserId":"f259244f-ed10-44f4-b95c-6f676c22d7ef"}'

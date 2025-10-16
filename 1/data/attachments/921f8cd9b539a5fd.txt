@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/297ef979-b329-4908-89ae-9763035015af' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIwOjUyOjU5LjMxMjAwNiIsInVzZXJfaWQiOiJkNTM4YTE0ZC1hODZhLTQ2ZWYtYWQ2Mi1mYmViYjgzOTBhN2EifQ.K_gQ3ZShKzGkFyqeMHOgdbrAlI2O3ALeFrh2UwbOeRc' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Knowledge card white law among product event deep.","maxScore":92,"minScore":11,"description":"Miss meeting night raise. Particular management then nearly too ball.\nSort must appear book skill camera reveal. Relationship I mean rich perhaps product book.","estimatedTime":"9 weeks"}'

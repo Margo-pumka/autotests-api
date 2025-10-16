@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIwOjUzOjAzLjUxMTQ5NSIsInVzZXJfaWQiOiIwZWU4OWI3YS0yNDRjLTQ2ZTItOGVlYi0zM2M0Mjc2NDJkMjgifQ.wV9v9QKPqcLHi2EVHGHn6SSD_Vjp3qKVjy8mK0JpyHo' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Event exist glass education right grow.","maxScore":51,"minScore":12,"description":"Service investment those reveal. Article major human individual under total.\nTax offer yes quickly painting challenge light. Many guy off from air clear available.","estimatedTime":"3 weeks","previewFileId":"b51101d4-ee16-48a4-ba2c-881808c49b35","createdByUserId":"0ee89b7a-244c-46e2-8eeb-33c427642d28"}'

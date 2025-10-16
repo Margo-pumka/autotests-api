@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIwOjUzOjAwLjUzNzAyMSIsInVzZXJfaWQiOiIwOWRhZjE0NC1mZjU4LTQ4NmUtYWZkNC03NDRlMDZkZTJiNjQifQ.GHvsFLUBog9Z59n3nHsEHeJr7omnZS3HVhNfxpdVlKE' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"From scene their treatment claim.","maxScore":87,"minScore":13,"description":"Region be no stand of. First position require. Read minute practice artist stage.\nLeave serious question type including. Three particularly be fly spend.","estimatedTime":"4 weeks","previewFileId":"0ef6aafa-75be-4db6-8e58-c7867be64a71","createdByUserId":"09daf144-ff58-486e-afd4-744e06de2b64"}'

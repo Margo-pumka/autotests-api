@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/2d983059-57c3-4996-88b1-34476b296f81' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIwOjUzOjAxLjcwOTg3MSIsInVzZXJfaWQiOiJjNDY3MTRmOC1jNjFkLTRiMzktOTY4MS0wZDE5NTU5YThjYzIifQ.mI4v3pSvFTsn-lii4Ph7SMsSMObiAzfSnrvg8wm--Ik' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Respond center firm relationship form.","maxScore":72,"minScore":21,"orderIndex":56,"description":"Exactly finally along rest citizen list. Let loss brother oil now any.\nLight catch last recently face. Line miss maintain option network whom watch. Gun room near within when fact.","estimatedTime":"10 weeks"}'
