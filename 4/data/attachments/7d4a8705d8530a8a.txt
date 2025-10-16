@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIxOjM3OjMzLjg4MDAxMCIsInVzZXJfaWQiOiI4YmIyZTJiNS0yNGVkLTRjOGUtOGVlOS0wZTdiZTAwMjJhZDAifQ.gCF2bPx65oKpJuXvkjvEcJCpYMQAtMOE1MZ16AJg4iQ' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Now strong have.","maxScore":77,"minScore":28,"description":"Think dinner Mr run somebody firm writer building. Management add author ten.\nMeet thus analysis eat opportunity environmental. According three different yourself clear floor.","estimatedTime":"5 weeks","previewFileId":"07e67462-bda2-4202-b318-aedd8ef42610","createdByUserId":"8bb2e2b5-24ed-4c8e-8ee9-0e7be0022ad0"}'

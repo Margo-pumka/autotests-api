@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIxOjM3OjM1LjYzMzkyMCIsInVzZXJfaWQiOiIxZDU4NzZkMS05MDAxLTQ3NmQtYTYxYS0yZWE1OGFmMWY4N2UifQ.HBIxGvojWGjr5kwxN8RYPjwQOUPV_3oODTzG6tXzjnY' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Represent think owner worker.","maxScore":57,"minScore":14,"description":"Form act listen among quickly small. Deal scene teacher century.\nManage theory establish cup them six move. Tell present may. Like above store still morning activity turn.","estimatedTime":"6 weeks","previewFileId":"96b198c0-312f-4a5d-9d74-a9f9d84b8a26","createdByUserId":"1d5876d1-9001-476d-a61a-2ea58af1f87e"}'

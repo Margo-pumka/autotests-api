@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIxOjM3OjM0LjQ2NTExMyIsInVzZXJfaWQiOiJmOTAzNzAyMS1mOTc4LTRkMTQtYjQ5Zi1lN2U2NmViMmRmMWIifQ.UNLQstdtgROA6Fti8oZ46ShuS6cWOJA2IWVEzWV6664' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"That under such benefit.","maxScore":72,"minScore":30,"description":"Upon issue weight loss adult happen. Toward product world would.\nNight operation war class special design service. Other media fact certain. Good letter develop expect stock true.","estimatedTime":"10 weeks","previewFileId":"193bafb0-c6f6-46f3-a1bd-9a5173369141","createdByUserId":"f9037021-f978-4d14-b49f-e7e66eb2df1b"}'

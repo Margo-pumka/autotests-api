@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIxOjM3OjM1LjA0ODI5NCIsInVzZXJfaWQiOiI0OTYyMmQxZS03ZjIwLTQ1MDktOTJkNC03NThjOTg3MThlZDEifQ.FX-bmmLY9zYnkP3yN6B5PFJ1adpcVlw24F39OPN-kpw' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Crime help rather respond.","maxScore":53,"minScore":11,"description":"Professional class bill plant blood.\nModern clear today skin that sound. Degree none garden picture population own.","estimatedTime":"9 weeks","previewFileId":"1ecb6879-bb63-48ec-b0fa-6a6faa638b0a","createdByUserId":"49622d1e-7f20-4509-92d4-758c98718ed1"}'

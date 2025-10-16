@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIxOjM3OjM0LjQ2NTExMyIsInVzZXJfaWQiOiJmOTAzNzAyMS1mOTc4LTRkMTQtYjQ5Zi1lN2U2NmViMmRmMWIifQ.UNLQstdtgROA6Fti8oZ46ShuS6cWOJA2IWVEzWV6664' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Poor seat will pressure particular thank.","courseId":"f190a145-382c-4690-b23b-c4d21ac13313","maxScore":62,"minScore":24,"orderIndex":71,"description":"Possible organization item how memory real start. Way condition organization. Religious later difficult key.","estimatedTime":"3 weeks"}'

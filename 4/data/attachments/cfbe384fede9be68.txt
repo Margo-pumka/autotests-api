@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ba28343f-9d0e-4113-a8b3-32101603587a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIxOjM3OjMyLjM3NTk0NiIsInVzZXJfaWQiOiI4ODY5YWRhOS1iZmUzLTRjZTMtYjJjYi1mN2RkMGZkNGMwMTAifQ.RUlQ7wIWl6py4UXJv7W2Hv2oW8S1nyaEAR1BN07jCOg' \
+  -H 'content-length: 261' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Perform foot fund on product realize third.","maxScore":71,"minScore":11,"description":"Buy today science worker foreign suddenly understand. Analysis world drop population hotel see such. Door necessary effort those speak.","estimatedTime":"3 weeks"}'

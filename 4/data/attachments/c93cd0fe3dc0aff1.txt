@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIxOjM3OjM2Ljg1ODU5NyIsInVzZXJfaWQiOiJmZWViZTlhMi00ZWFhLTQyNzgtOTE4MS0xY2I1NjljYTBlMTMifQ.tFcyiCrN5Vnqi3hqmIu0U5jFm89nuwWyYoiCSIevVu8' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Boy buy staff rather.","maxScore":64,"minScore":2,"description":"Star support push. Song executive management much tend all. Media plan beyond despite drop night sign despite.","estimatedTime":"8 weeks","previewFileId":"522d9a27-1724-4471-88b9-d4ad7416b6e3","createdByUserId":"feebe9a2-4eaa-4278-9181-1cb569ca0e13"}'

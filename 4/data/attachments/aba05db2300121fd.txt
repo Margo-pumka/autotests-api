@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIxOjM3OjMyLjM3NTk0NiIsInVzZXJfaWQiOiI4ODY5YWRhOS1iZmUzLTRjZTMtYjJjYi1mN2RkMGZkNGMwMTAifQ.RUlQ7wIWl6py4UXJv7W2Hv2oW8S1nyaEAR1BN07jCOg' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spend chair specific purpose.","maxScore":73,"minScore":20,"description":"Discover rest provide after measure week all. Factor day lead although me.\nI between sign company baby time director. Hospital nothing modern simple source certain coach.","estimatedTime":"9 weeks","previewFileId":"1115178b-2d69-4306-b256-801ef9b2d334","createdByUserId":"8869ada9-bfe3-4ce3-b2cb-f7dd0fd4c010"}'

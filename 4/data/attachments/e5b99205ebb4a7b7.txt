@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDIxOjM3OjMzLjI5MDQ0MCIsInVzZXJfaWQiOiI3MTUyMWY1OS1iMTFhLTQwNmYtOWRjMC0xNmFhZTZkZmZkNjUifQ.C761woX3SLoO4C_Sx7-435pLJirghTFgqoavHSAH7r4' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sure cultural lay call friend difficult notice reveal.","maxScore":65,"minScore":3,"description":"Various also artist billion every finally type. Environment understand collection foreign begin reduce. Key tree something question agency high really.","estimatedTime":"10 weeks","previewFileId":"e290b0e5-2652-45c3-b79a-ad4681cd4562","createdByUserId":"71521f59-b11a-406f-9dc0-16aae6dffd65"}'
