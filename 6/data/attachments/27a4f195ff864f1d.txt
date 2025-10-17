@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjA3OjMxLjU4MjQ3OCIsInVzZXJfaWQiOiIxY2JmODFhMC0xNDljLTQ2ZDktYTJjMS04ZjI4NDJmMzkxM2IifQ.dQz12rGmhkcdm2u_PiXrBBwV1dNtP_NPtLhKv4fs5qU' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Upon claim could work officer build.","courseId":"727dfe04-a852-4fb0-b696-90eaf124b09c","maxScore":76,"minScore":17,"orderIndex":100,"description":"West read serious conference reality. Course conference argue. Do sister particular put especially stay religious. Training rise drug.","estimatedTime":"2 weeks"}'

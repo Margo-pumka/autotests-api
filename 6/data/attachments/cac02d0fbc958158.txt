@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjA3OjMyLjI1NTQ1MSIsInVzZXJfaWQiOiJiMDNmMjViNy04Mzc2LTRkNzktOTc1OS0zNTFmNDg0YTk1MjcifQ.c7eXX4nMFybH10dZDFAScBFGd_y_RJmIQWap3pQKi8Q' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mission fact whom moment reveal history before you.","courseId":"75bcaf1e-3e4f-49a3-869f-4a26c7a52768","maxScore":95,"minScore":9,"orderIndex":53,"description":"Strategy in phone create. Ready particular father bar would skin. Decision have professor impact inside artist security.","estimatedTime":"1 weeks"}'

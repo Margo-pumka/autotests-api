@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjA3OjMwLjk5ODI4NyIsInVzZXJfaWQiOiI5ODVlNWRiMi05ZGFlLTQ5YTYtYmZhNC01NzEwZDQ1Nzk4MjEifQ.zftkvVLQ_fawi-rs_xxwgFvN2Jr5zTP2m7-PIoBObOc' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Involve one painting final cultural plant sometimes.","maxScore":51,"minScore":13,"description":"Ready thousand bag offer. Nothing trip understand town.\nSea hand century kind gas ready finish. Public husband quite future. Soldier new news meet site affect break this.","estimatedTime":"2 weeks","previewFileId":"6bf2442d-0e3c-443d-a161-f60876a0c659","createdByUserId":"985e5db2-9dae-49a6-bfa4-5710d4579821"}'

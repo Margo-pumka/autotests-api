@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=75bcaf1e-3e4f-49a3-869f-4a26c7a52768
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=75bcaf1e-3e4f-49a3-869f-4a26c7a52768
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:122 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:71 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 0d6e32ad-e247-41b3-8848-3544719f9824
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Mission fact whom moment reveal history before you.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 75bcaf1e-3e4f-49a3-869f-4a26c7a52768
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 95
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 53
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Strategy in phone create. Ready particular father bar would skin. Decision have professor impact inside artist security.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

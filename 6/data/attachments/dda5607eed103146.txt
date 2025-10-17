@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjA3OjMxLjU4MjQ3OCIsInVzZXJfaWQiOiIxY2JmODFhMC0xNDljLTQ2ZDktYTJjMS04ZjI4NDJmMzkxM2IifQ.dQz12rGmhkcdm2u_PiXrBBwV1dNtP_NPtLhKv4fs5qU' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Republican get example line explain site hold.","maxScore":53,"minScore":27,"description":"Poor year center child because despite. Fish ability computer law training mouth beautiful. Bring ground ball important resource fact.","estimatedTime":"5 weeks","previewFileId":"c08ccbb5-c929-48ef-be66-68cdabf25846","createdByUserId":"1cbf81a0-149c-46d9-a2c1-8f2842f3913b"}'

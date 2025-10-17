@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjA3OjI5LjE4MzQ0MCIsInVzZXJfaWQiOiIzOWRiYmM0Ny0wODM2LTQ0ZjUtOWY3OS00NTE5ZjMxMmU3ZTIifQ.yql3tPAcHQDuJb41-cmGefMEfhb8-M3V0C7dn_uO2Yk' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Live life threat full pass future around.","maxScore":93,"minScore":16,"description":"Gun price want. Over suddenly crime area every free then.\nAvailable wind possible boy. Behavior indeed size my. Media ground why increase.","estimatedTime":"9 weeks","previewFileId":"d7ada7f1-4269-44e8-8683-773c926b6169","createdByUserId":"39dbbc47-0836-44f5-9f79-4519f312e7e2"}'

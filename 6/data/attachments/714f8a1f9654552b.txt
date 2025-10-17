@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjA3OjMwLjk5ODI4NyIsInVzZXJfaWQiOiI5ODVlNWRiMi05ZGFlLTQ5YTYtYmZhNC01NzEwZDQ1Nzk4MjEifQ.zftkvVLQ_fawi-rs_xxwgFvN2Jr5zTP2m7-PIoBObOc' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Where avoid degree.","courseId":"29bfc275-d7b6-4aaf-9447-e383a5eff966","maxScore":68,"minScore":3,"orderIndex":25,"description":"These send professor size wait stop.\nNice coach know reason cell young. Concern themselves like nor happy herself nothing. Reach throughout them away. News new base former similar usually.","estimatedTime":"9 weeks"}'

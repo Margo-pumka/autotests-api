@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjA3OjI4LjU5MjI3NCIsInVzZXJfaWQiOiIwZGI0MGYyNy1lMzU2LTQyMWMtYjdlYS1jNzdhMjZmNmFmMjcifQ.pVVcW2DbxocS_EHfPlzy-C96-n2gTh8qH8nmdDj1YD8' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Before us probably try from mean.","maxScore":91,"minScore":16,"description":"Lead foot figure drive skill.\nSafe today key hand stay authority any.\nRemain owner product likely cut executive. All guy economic article. House east same trip thought.","estimatedTime":"7 weeks","previewFileId":"3a7edff5-dfb0-4c48-8ff7-e889f3ef1d5a","createdByUserId":"0db40f27-e356-421c-b7ea-c77a26f6af27"}'

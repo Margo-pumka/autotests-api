@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/35c133fa-4c72-4bab-8c26-ebda3b35fdd3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjA3OjI3LjY4MzY5MCIsInVzZXJfaWQiOiJhNTNlNDg1NS1lNmJlLTQ5NjktYmNiOS05ODE0ZDEwMTg0MjgifQ.jqQbxqdzk351ErW-iVFmVWvGoTIyPVwZaM-YQpJslSI' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"That soldier character anything.","maxScore":60,"minScore":15,"description":"Development tax within analysis. Available indeed health production assume he true. Call kid mean far throw.\nOrder relate position. Low from produce force.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjA3OjI5Ljc3MTM4NCIsInVzZXJfaWQiOiI0OTg5YTJlMS03NjYxLTQ3ZjYtOGViYi1hYWRjY2JiMWNiOGYifQ.onXm3XJBmFj-K-phB6jZQdPq_RoxMv7k5_s7PiNtpJc' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Above Democrat gun dream.","maxScore":74,"minScore":21,"description":"Affect always economic team. Note deal unit college a very. Among represent either class.\nOften adult actually until right piece. Start where attack resource.","estimatedTime":"10 weeks","previewFileId":"32849a4f-222c-4852-8cc3-0486c19ef156","createdByUserId":"4989a2e1-7661-47f6-8ebb-aadccbb1cb8f"}'
