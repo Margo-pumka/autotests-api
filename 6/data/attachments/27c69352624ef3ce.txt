@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjEwOjUwLjk2MDAxOCIsInVzZXJfaWQiOiJjOTM2NzJmOC1mZDQ4LTRiZWQtYjE5MS1lODc2YTA0ODhkMTkifQ.PyF40Ym2dAm0baewInt0DjqsQ1ceXvkFfPWPIEUxqgk' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Third truth pretty onto hundred floor thing.","maxScore":77,"minScore":14,"description":"Campaign then size industry. Rest south oil suffer far five short. Sound cut director national. These describe race benefit.","estimatedTime":"6 weeks","previewFileId":"450f464e-50eb-479b-800d-337264271562","createdByUserId":"c93672f8-fd48-4bed-b191-e876a0488d19"}'

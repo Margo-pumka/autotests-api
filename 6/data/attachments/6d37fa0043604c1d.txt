@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/355603e0-f6cd-4a09-9e5a-c528294f4362' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjEwOjQ3LjMwMTIxNyIsInVzZXJfaWQiOiIzMmUxMjZlNi0xMGRhLTQ2YzktODk3Zi1iNzQ5YzhhNmUzOTYifQ.BSsz96MrAua1lPozyPNv59PbI-dRG_qJA2Ih4-LDJhk' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Director skin watch family open claim although.","maxScore":81,"minScore":28,"description":"Impact will into court usually measure. Security in thank city how sort indeed weight.\nSouthern thousand indicate effort road face standard.\nEat kind deal. Organization evening rock.","estimatedTime":"1 weeks"}'

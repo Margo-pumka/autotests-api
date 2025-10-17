@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjEwOjQ5LjcyNjAzNiIsInVzZXJfaWQiOiJiYTAzYjdkZC1mNDY4LTRiNzctOGYxOC1lZjI1YjVjMjRmZTMifQ.U8rz3CU9Lxedc1sKBsmBv4FdKlLuDxVSIQ2tEUPhnvk' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Accept concern identify involve police.","maxScore":92,"minScore":24,"description":"Know understand either professor today PM. Training design anything.\nIndicate kind inside level ever.","estimatedTime":"8 weeks","previewFileId":"a0780763-48e4-4f07-8723-2a82b8f460d6","createdByUserId":"ba03b7dd-f468-4b77-8f18-ef25b5c24fe3"}'

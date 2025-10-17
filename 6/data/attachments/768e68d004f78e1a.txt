@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjEwOjUwLjMyMTMzMSIsInVzZXJfaWQiOiJhMjE0YTQwMi01ODVhLTRjNTQtODUzOS1hOTJiMGI3N2RkNmMifQ.OlrVCREOQzeJyCq3o-SqVvEJYwKlH9Dbg8arhVzbvIo' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Experience early beyond protect traditional notice nor drug.","maxScore":55,"minScore":7,"description":"Involve across feeling quality son example. So claim couple decade action rule fact necessary. Theory discover meeting bar cup author of improve. Side might hit cold nor employee fall.","estimatedTime":"9 weeks","previewFileId":"917de4a5-74c1-4dd8-865f-3b4fba4994f6","createdByUserId":"a214a402-585a-4c54-8539-a92b0b77dd6c"}'

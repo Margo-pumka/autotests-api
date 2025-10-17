@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjEwOjQ3LjMwMTIxNyIsInVzZXJfaWQiOiIzMmUxMjZlNi0xMGRhLTQ2YzktODk3Zi1iNzQ5YzhhNmUzOTYifQ.BSsz96MrAua1lPozyPNv59PbI-dRG_qJA2Ih4-LDJhk' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spend yes radio ever statement lawyer figure media.","maxScore":92,"minScore":12,"description":"Prepare head number. Line soldier government music challenge two interesting.\nPosition onto research kid tree PM. Or human well focus run mouth point.","estimatedTime":"6 weeks","previewFileId":"2e5819e7-9b1d-442d-a5f7-eb1292bc1d00","createdByUserId":"32e126e6-10da-46c9-897f-b749c8a6e396"}'

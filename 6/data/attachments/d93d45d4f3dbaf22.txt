@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjEwOjUxLjU3ODg3MyIsInVzZXJfaWQiOiJkMGUwODRkMi0yMGY1LTRjNmQtYjdkYS1iOGViMDFhZTMzN2YifQ.8txPHAvJ1Jhb-AgxLyo1g3HJYDVC7JiT5He3fBxy6oo' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Charge call agency camera federal keep.","maxScore":75,"minScore":25,"description":"Federal central actually staff amount. Not clear service feel phone.\nUnder police hard lead three national. Word increase me.","estimatedTime":"8 weeks","previewFileId":"0d71b126-b6b9-4e3c-8baf-5c18a3127151","createdByUserId":"d0e084d2-20f5-4c6d-b7da-b8eb01ae337f"}'

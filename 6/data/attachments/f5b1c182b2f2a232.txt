@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDIxOjEwOjQ4LjU1NTMyMyIsInVzZXJfaWQiOiJiOGZjNTgyMi05ODg2LTQ1ZjQtYWJkZS02NWZjMjU4MTM2MWIifQ.riWfM1oIUL5dvoz24b4th8rxE_tyUipPjxbwmlIrMTo' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Population half child them clear.","maxScore":85,"minScore":7,"description":"Which poor impact house oil analysis tend. Way law almost still social.\nMorning speech understand star. Trial wind science. Detail always best speech that need.","estimatedTime":"7 weeks","previewFileId":"838f64de-33c7-4490-9ed4-6a93a6c633fb","createdByUserId":"b8fc5822-9886-45f4-abde-65fc2581361b"}'
