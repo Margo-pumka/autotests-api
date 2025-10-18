@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDEzOjAyOjIwLjAzNzQyNSIsInVzZXJfaWQiOiIxNTUyYzYyOC0zM2M0LTQ1OWMtYTBiZi02YWY3NjNiMjMxY2EifQ.rBMrXONX_RbfjUOVzwS4GH1mgVnhQ7ZlGuVZsujCBG0' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pretty class institution data serious thus month.","courseId":"5737124d-a1f7-44ff-9134-f67ff6acc194","maxScore":83,"minScore":18,"orderIndex":38,"description":"For various particularly expert by. Story try we others case. Design bag play and rock.\nStyle brother prepare structure exactly. Four able pass relate.","estimatedTime":"9 weeks"}'

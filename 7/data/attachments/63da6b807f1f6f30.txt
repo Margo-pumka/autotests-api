@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDEzOjAyOjE5LjM3MjUwMyIsInVzZXJfaWQiOiI5ZjVmNDI4Zi03MDdlLTRjZmYtOTVmOS01MWU3YjIyNGFjYWYifQ.AvWKXfHJk8pxJ3h32TQMgGUDiqnr6MCy95mVVppT3Jc' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Always son among scientist back seven.","courseId":"9e60a633-b674-4dbe-ba8a-c97f189bd09e","maxScore":81,"minScore":18,"orderIndex":69,"description":"Property together effect. Bag food pattern true series. Begin recent medical high window teach treatment. Majority quite thing official recently.","estimatedTime":"6 weeks"}'

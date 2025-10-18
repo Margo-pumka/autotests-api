@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c1532c01-4175-4a09-8dcf-d82899182f31' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDEzOjAyOjE2LjEyNDE4MiIsInVzZXJfaWQiOiJhODMxODIzZS02ZjA1LTQ4YmYtOTY0MS1lZGM5MjM3YTIwYjEifQ.2XRFNOkbX7qDskzSc8NOJaCqgss-XZLXgh9vURU4WFA' \
+  -H 'content-length: 253' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quickly exactly represent dream each.","maxScore":56,"minScore":18,"description":"Baby meeting interesting him itself drive. Law station phone daughter add condition affect test. According which develop month study.","estimatedTime":"7 weeks"}'

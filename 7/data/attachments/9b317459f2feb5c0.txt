@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDEzOjAyOjE2LjEyNDE4MiIsInVzZXJfaWQiOiJhODMxODIzZS02ZjA1LTQ4YmYtOTY0MS1lZGM5MjM3YTIwYjEifQ.2XRFNOkbX7qDskzSc8NOJaCqgss-XZLXgh9vURU4WFA' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Order say southern nor value.","maxScore":54,"minScore":12,"description":"Alone his color medical. Could beyond officer speech seat discussion form. With letter white wife gas around.\nSoon follow reach so sign letter everything. Rule official foot.","estimatedTime":"9 weeks","previewFileId":"743294d9-ecd8-49bd-96e2-4172a7fe41d2","createdByUserId":"a831823e-6f05-48bf-9641-edc9237a20b1"}'

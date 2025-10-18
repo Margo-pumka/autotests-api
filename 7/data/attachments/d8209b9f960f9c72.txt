@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDEzOjAyOjE4Ljc4OTc4MSIsInVzZXJfaWQiOiI3M2UyZmNhOS04OWQ2LTRmZmEtYjMwMC01MjcxNjMyNGEwYmYifQ.zKlhXT9qcLhs1Jrmo6NYiA1tkSjd2JQ-EVyUm98bmJs' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Magazine skill may risk.","courseId":"10fa549f-55df-4fca-9b3a-e9c92c9a8918","maxScore":79,"minScore":30,"orderIndex":5,"description":"Loss debate medical anyone budget behind partner. Create involve model last might day.\nNone ever we total work. How certainly recently line perform agent strong difference.","estimatedTime":"1 weeks"}'

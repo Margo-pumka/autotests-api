@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDEzOjAyOjE5LjM3MjUwMyIsInVzZXJfaWQiOiI5ZjVmNDI4Zi03MDdlLTRjZmYtOTVmOS01MWU3YjIyNGFjYWYifQ.AvWKXfHJk8pxJ3h32TQMgGUDiqnr6MCy95mVVppT3Jc' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wife detail region democratic size imagine.","maxScore":64,"minScore":3,"description":"But become conference ball occur including world. Same full deal show rule machine.\nCar piece international drive effect indicate improve. Mouth chance individual.","estimatedTime":"6 weeks","previewFileId":"de81d7e6-bec8-4fac-baeb-3f17a790d0d4","createdByUserId":"9f5f428f-707e-4cff-95f9-51e7b224acaf"}'

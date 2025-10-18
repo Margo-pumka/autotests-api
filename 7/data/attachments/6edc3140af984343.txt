@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDEzOjAyOjE3LjYxMzU1OCIsInVzZXJfaWQiOiI5OWMwODMxOC1hOGJiLTQxY2UtYTRjOC1lZDgyYmFiODdhZWQifQ.ek_KGpgqOzZ2m1Lsd6ZId9Yoeq9ndS5R2djGnLgM_v0' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Business although star value.","maxScore":91,"minScore":12,"description":"Voice you page yes ball. Effect quickly dinner professional strategy role similar. Foreign reflect down pattern wall. Nation big most common computer commercial painting.","estimatedTime":"7 weeks","previewFileId":"248d2207-87c0-4e8c-9715-ff9725d3e19d","createdByUserId":"99c08318-a8bb-41ce-a4c8-ed82bab87aed"}'
